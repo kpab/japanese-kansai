@@ -2,13 +2,13 @@
   "name": "japanese-kansai",
   "displayName": "japanese-kansai",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "pab",
   "engines": {
     "vscode": "^1.93.0"
   },
   "categories": [
-    "Other"
+    "Language Packs"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -27,11 +27,15 @@
         "translations": [
           {
             "id": "vscode",
-            "path": "./translations/ja-kansai/package.nls.json"
+            "path": "translations/ja-kansai/package.nls.json"
           }
         ]
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kpab/japanese-kansai"
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

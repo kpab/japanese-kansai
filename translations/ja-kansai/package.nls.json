@@ -26,5 +26,7 @@
   "newWindow": "新しいウィンドウ開くで",
   "closeWindow": "ウィンドウ閉じるで",
   "closeFolder": "フォルダ閉じるで",
-  "about": "VS Codeのこと知りたいか？"
+  "about": "VS Codeのこと知りたいか？",
+  "commands.selectLaunchTargetFramework": "起動対象のフレームワークを選択するで",
+  "configuration.dotnet.unitTests.runSettingsPath.markdownDescription": "単体テストの設定ファイルのパスを指定するで"
 }
